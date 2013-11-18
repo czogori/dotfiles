@@ -2,12 +2,12 @@
  set tabstop=4
  set shiftwidth=4
  set expandtab    
-
  set nocompatible 
  set laststatus=2
  set noshowmode
-
+ 
  let mapleader=","
+ filetype off
 
  " vundle
  set rtp+=~/.vim/bundle/vundle/ 
@@ -23,7 +23,7 @@
  Bundle 'git://git.wincent.com/command-t.git'
  Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
- 
+ filetype plugin indent on
  " php-cs-fixer
  let g:php_cs_fixer_path = "/usr/local/bin/php-cs-fixer" " define the path to the php-cs-fixer.phar
  let g:php_cs_fixer_level = "all"                  " which level ?
