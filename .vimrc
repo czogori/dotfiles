@@ -20,9 +20,12 @@
  Bundle 'tpope/vim-fugitive'
  Bundle 'tpope/vim-rails.git'
  Bundle 'scrooloose/nerdtree.git'
- Bundle 'stephpy/vim-php-cs-fixer'
  Bundle 'git://git.wincent.com/command-t.git'
  Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+
+ " php
+ Bundle 'stephpy/vim-php-cs-fixer'
+ Bundle 'shawncplus/phpcomplete.vim'
 
  filetype plugin indent on
  " php-cs-fixer
