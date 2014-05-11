@@ -6,6 +6,7 @@
  set laststatus=2
  set noshowmode
  set mouse=a
+ set hlsearch
 
  let mapleader=","
  filetype off
