@@ -5,7 +5,8 @@
  set nocompatible 
  set laststatus=2
  set noshowmode
- 
+ set mouse=a
+
  let mapleader=","
  filetype off
 
