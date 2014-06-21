@@ -37,3 +37,7 @@
 
  " ctrlp
  set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+ " fix the most frequent mistakes
+ ab flase false
+ ab emial email
