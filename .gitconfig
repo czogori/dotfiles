@@ -1,0 +1,10 @@
+[user]
+    name = Arek Jaskólski
+    email = arek.jaskolski@gmail.com
+[author]
+    name = Arek Jaskólski
+    email = arek.jaskolski@gmail.com
+[core]
+    editor = vim
+[push]
+    default = simple
