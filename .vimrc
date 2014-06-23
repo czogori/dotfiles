@@ -13,7 +13,6 @@
 
  " vundle
  set rtp+=~/.vim/bundle/vundle/ 
- set rtp+=~/.vim/bundle/powerline/bindings/vim
 
  call vundle#rc()
 
@@ -22,7 +21,7 @@
  Bundle 'tpope/vim-rails.git'
  Bundle 'scrooloose/nerdtree.git'
  Bundle 'git://git.wincent.com/command-t.git'
- Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+ Bundle 'bling/vim-airline'
 
  " php
  Bundle 'stephpy/vim-php-cs-fixer'
