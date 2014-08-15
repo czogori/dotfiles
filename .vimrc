@@ -20,7 +20,6 @@
  Bundle 'tpope/vim-fugitive'
  Bundle 'tpope/vim-rails.git'
  Bundle 'scrooloose/nerdtree.git'
- Bundle 'git://git.wincent.com/command-t.git'
  Bundle 'bling/vim-airline'
  Bundle 'mileszs/ack.vim'
  Bundle 'kien/ctrlp.vim'
