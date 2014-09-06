@@ -23,6 +23,7 @@
  Bundle 'bling/vim-airline'
  Bundle 'mileszs/ack.vim'
  Bundle 'kien/ctrlp.vim'
+ Bundle 'ntpeters/vim-better-whitespace'
 
  " php
  Bundle 'stephpy/vim-php-cs-fixer'
