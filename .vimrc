@@ -11,26 +11,30 @@
  let mapleader=","
  filetype off
 
- " vundle
- set rtp+=~/.vim/bundle/vundle/ 
+ 
+ " set the runtime path to include Vundle and initialize
+ set rtp+=~/.vim/bundle/Vundle.vim
+ call vundle#begin()
 
- call vundle#rc()
-
- Bundle 'gmarik/vundle'
- Bundle 'tpope/vim-fugitive'
- Bundle 'tpope/vim-rails.git'
- Bundle 'scrooloose/nerdtree.git'
- Bundle 'scrooloose/nerdcommenter'
- Bundle 'bling/vim-airline'
- Bundle 'mileszs/ack.vim'
- Bundle 'kien/ctrlp.vim'
- Bundle 'ntpeters/vim-better-whitespace'
+ Plugin 'gmarik/vundle'
+ Plugin 'tpope/vim-fugitive'
+ Plugin 'tpope/vim-rails.git'
+ Plugin 'scrooloose/nerdtree.git'
+ Plugin 'scrooloose/nerdcommenter'
+ Plugin 'bling/vim-airline'
+ Plugin 'mileszs/ack.vim'
+ Plugin 'kien/ctrlp.vim'
+ Plugin 'ntpeters/vim-better-whitespace'
 
  " php
- Bundle 'stephpy/vim-php-cs-fixer'
- Bundle 'shawncplus/phpcomplete.vim'
+ Plugin 'stephpy/vim-php-cs-fixer'
+ Plugin 'shawncplus/phpcomplete.vim'
+ 
+ " All of your Plugins must be added before the following line
+ call vundle#end()            " required
+ filetype plugin indent on    " required
 
- filetype plugin indent on
+
  " php-cs-fixer
  let g:php_cs_fixer_path = "/usr/local/bin/php-cs-fixer" " define the path to the php-cs-fixer.phar
  let g:php_cs_fixer_level = "all"                  " which level ?
