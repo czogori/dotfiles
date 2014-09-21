@@ -25,7 +25,7 @@
  Plugin 'mileszs/ack.vim'
  Plugin 'kien/ctrlp.vim'
  Plugin 'ntpeters/vim-better-whitespace'
-
+ Plugin 'majutsushi/tagbar'
  " php
  Plugin 'stephpy/vim-php-cs-fixer'
  Plugin 'shawncplus/phpcomplete.vim'
