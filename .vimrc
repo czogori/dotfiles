@@ -1,17 +1,22 @@
+ syntax enable
+
  set number
  set tabstop=4
  set shiftwidth=4
- set expandtab    
- set nocompatible 
+ set expandtab
+ set nocompatible
  set laststatus=2
  set noshowmode
  set mouse=a
  set hlsearch
+ set background=dark
+ set t_Co=256          " enable 256 colors
+
+ colorscheme solarized
 
  let mapleader=","
  filetype off
 
- 
  " set the runtime path to include Vundle and initialize
  set rtp+=~/.vim/bundle/Vundle.vim
  call vundle#begin()
@@ -26,10 +31,12 @@
  Plugin 'kien/ctrlp.vim'
  Plugin 'ntpeters/vim-better-whitespace'
  Plugin 'majutsushi/tagbar'
+ Plugin 'altercation/vim-colors-solarized'
+
  " php
  Plugin 'stephpy/vim-php-cs-fixer'
  Plugin 'shawncplus/phpcomplete.vim'
- 
+
  " All of your Plugins must be added before the following line
  call vundle#end()            " required
  filetype plugin indent on    " required
