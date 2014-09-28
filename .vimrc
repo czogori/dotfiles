@@ -31,16 +31,17 @@
  Plugin 'kien/ctrlp.vim'
  Plugin 'ntpeters/vim-better-whitespace'
  Plugin 'majutsushi/tagbar'
+ Plugin 'ervandew/supertab'
  Plugin 'altercation/vim-colors-solarized'
 
- " php
+ " php plugins
  Plugin 'stephpy/vim-php-cs-fixer'
  Plugin 'shawncplus/phpcomplete.vim'
+ Plugin 'arnaud-lb/vim-php-namespace'
 
  " All of your Plugins must be added before the following line
  call vundle#end()            " required
  filetype plugin indent on    " required
-
 
  " php-cs-fixer
  let g:php_cs_fixer_path = "/usr/local/bin/php-cs-fixer" " define the path to the php-cs-fixer.phar
