@@ -59,3 +59,8 @@
  " fix the most frequent mistakes
  ab flase false
  ab emial email
+
+ :command WQ wq
+ :command Wq wq
+ :command W w
+ :command Q q
