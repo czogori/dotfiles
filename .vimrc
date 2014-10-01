@@ -7,7 +7,10 @@
  set nocompatible
  set laststatus=2
  set noshowmode
+ set nowrap
  set mouse=a
+ set timeoutlen=1000
+ set ttimeoutlen=0
  set hlsearch
  set background=dark
  set t_Co=256          " enable 256 colors
