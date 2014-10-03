@@ -67,3 +67,4 @@
  :command Wq wq
  :command W w
  :command Q q
+ :command Qa qa
