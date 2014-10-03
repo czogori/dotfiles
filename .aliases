@@ -1,0 +1,3 @@
+alias v='vim'
+alias mc='EDITOR=vim mc'
+alias i='sudo apt-get install'
