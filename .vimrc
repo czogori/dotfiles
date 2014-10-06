@@ -68,3 +68,9 @@
  :command W w
  :command Q q
  :command Qa qa
+
+ " don't touch arrows
+ noremap <Up> <NOP>
+ noremap <Down> <NOP>
+ noremap <Left> <NOP>
+ noremap <Right> <NOP>
