@@ -37,6 +37,7 @@
  Plugin 'ervandew/supertab'
  Plugin 'altercation/vim-colors-solarized'
  Plugin 'miyakogi/conoline.vim'
+ Plugin 'godlygeek/tabular'
 
  " php plugins
  Plugin 'stephpy/vim-php-cs-fixer'
