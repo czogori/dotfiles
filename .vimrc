@@ -11,9 +11,13 @@
  set mouse=a
  set timeoutlen=1000
  set ttimeoutlen=0
- set hlsearch
  set background=dark
  set t_Co=256          " enable 256 colors
+ 
+ " searching
+ set hlsearch
+ set ignorecase 
+ set smartcase
 
  colorscheme solarized
 
