@@ -13,10 +13,10 @@
  set ttimeoutlen=0
  set background=dark
  set t_Co=256          " enable 256 colors
- 
+
  " searching
  set hlsearch
- set ignorecase 
+ set ignorecase
  set smartcase
 
  colorscheme solarized
@@ -42,6 +42,7 @@
  Plugin 'altercation/vim-colors-solarized'
  Plugin 'miyakogi/conoline.vim'
  Plugin 'godlygeek/tabular'
+ Plugin 'jlemetay/permut'
 
  " php plugins
  Plugin 'stephpy/vim-php-cs-fixer'
