@@ -32,6 +32,7 @@
  Plugin 'tpope/vim-fugitive'
  Plugin 'tpope/vim-rails.git'
  Plugin 'scrooloose/nerdtree.git'
+ Plugin 'jistr/vim-nerdtree-tabs'
  Plugin 'scrooloose/nerdcommenter'
  Plugin 'bling/vim-airline'
  Plugin 'mileszs/ack.vim'
