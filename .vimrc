@@ -44,6 +44,7 @@
  Plugin 'miyakogi/conoline.vim'
  Plugin 'godlygeek/tabular'
  Plugin 'jlemetay/permut'
+ Plugin 'LargeFile'
 
  " php plugins
  Plugin 'stephpy/vim-php-cs-fixer'
