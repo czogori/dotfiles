@@ -45,6 +45,7 @@
  Plugin 'godlygeek/tabular'
  Plugin 'jlemetay/permut'
  Plugin 'LargeFile'
+ Plugin 'avakhov/vim-yaml'
 
  " php plugins
  Plugin 'stephpy/vim-php-cs-fixer'
