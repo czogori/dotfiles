@@ -54,3 +54,8 @@ export PATH="/usr/local/heroku/bin:$PATH"
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 [ -f ~/.aliases ] && source ~/.aliases
+
+# go
+export PATH="$PATH:/usr/local/go/bin"
+export GOPATH="$HOME/go"
+export GOBIN="$HOME/go/bin"
