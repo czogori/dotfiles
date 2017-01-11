@@ -40,7 +40,7 @@ ZSH_THEME="avit"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git symfony2 composer ruby lighthouse)
-plugins=(extract brew git rails symfony2 composer osx docker z)
+plugins=(extract brew git rails symfony2 composer osx docker z mix)
 
 source $ZSH/oh-my-zsh.sh
 
