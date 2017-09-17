@@ -59,3 +59,6 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export PATH="$PATH:/usr/local/go/bin"
 export GOPATH="$HOME/go"
 export GOBIN="$HOME/go/bin"
+
+# Enable history in IEX
+export ERL_AFLAGS="-kernel shell_history enabled"
