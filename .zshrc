@@ -8,11 +8,9 @@ DISABLE_CORRECTION="true"
 
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(extract brew git gitignore symfony3 composer z osx web-search wd docker mix)
+plugins=(extract brew git gitignore z osx web-search wd docker mix tmux)
 
 source $ZSH/oh-my-zsh.sh
-
-# User configuration
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -43,5 +41,5 @@ export GOBIN="$HOME/go/bin"
 # rust
 export PATH="$HOME/.cargo/bin:$PATH"
 
-# erlang
+# Enable history in IEX
 export ERL_AFLAGS="-kernel shell_history enabled"
