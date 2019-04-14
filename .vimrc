@@ -43,8 +43,8 @@
  Plugin 'miyakogi/conoline.vim'
  Plugin 'godlygeek/tabular'
  Plugin 'jlemetay/permut'
-
  Plugin 'elixir-lang/vim-elixir'
+ Plugin 'tpope/vim-dadbod'
 
  " All of your Plugins must be added before the following line
  call vundle#end()            " required
