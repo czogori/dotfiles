@@ -30,7 +30,6 @@
 
  Plugin 'gmarik/vundle'
  Plugin 'tpope/vim-fugitive'
- Plugin 'tpope/vim-rails.git'
  Plugin 'scrooloose/nerdtree.git'
  Plugin 'scrooloose/nerdcommenter'
  Plugin 'bling/vim-airline'
