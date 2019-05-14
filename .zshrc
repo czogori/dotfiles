@@ -8,20 +8,19 @@ DISABLE_CORRECTION="true"
 
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(extract brew git gitignore z osx web-search wd docker mix tmux)
+plugins=(extract brew git gitignore composer z osx web-search wd docker mix)
 
 source $ZSH/oh-my-zsh.sh
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+# User configuration
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 alias c='pygmentize -O style=monokai -f console256 -g'
 
 alias pocket='open http://getpocket.com'
 alias gh='open http://github.com'
-alias feedly='open http://feedly.com'
+alias rss='open http://feedly.com'
 alias trello='open http://trello.com'
 
 # node
