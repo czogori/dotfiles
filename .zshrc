@@ -40,5 +40,8 @@ export GOBIN="$HOME/go/bin"
 # rust
 export PATH="$HOME/.cargo/bin:$PATH"
 
-# Enable history in IEX
+# erlang
 export ERL_AFLAGS="-kernel shell_history enabled"
+
+echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.zshrc
+echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.zshrc
