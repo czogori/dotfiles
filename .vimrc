@@ -1,6 +1,6 @@
  syntax enable
 
- set relativenumber
+ set number relativenumber " turn hybrid line numbers on
  set tabstop=4
  set shiftwidth=4
  set expandtab
@@ -43,6 +43,7 @@
  Plugin 'godlygeek/tabular'
  Plugin 'jlemetay/permut'
  Plugin 'elixir-lang/vim-elixir'
+ Plugin 'slashmili/alchemist.vim'
  Plugin 'tpope/vim-dadbod'
 
  " All of your Plugins must be added before the following line
