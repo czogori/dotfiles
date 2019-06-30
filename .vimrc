@@ -45,6 +45,7 @@
  Plugin 'elixir-lang/vim-elixir'
  Plugin 'slashmili/alchemist.vim'
  Plugin 'tpope/vim-dadbod'
+ Plugin 'junegunn/vader.vim'
 
  " All of your Plugins must be added before the following line
  call vundle#end()            " required
