@@ -69,3 +69,5 @@
  noremap <Down> <NOP>
  noremap <Left> <NOP>
  noremap <Right> <NOP>
+ nnoremap <leader>rc :vsplit $MYVIMRC<cr>
+ inoremap jk <esc>
