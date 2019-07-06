@@ -45,6 +45,9 @@
  Plugin 'elixir-lang/vim-elixir'
  Plugin 'slashmili/alchemist.vim'
  Plugin 'tpope/vim-dadbod'
+ Plugin 'benmills/vimux'
+ Plugin 'drewolson/vimux-elixir-test'
+ Plugin 'mhinz/vim-mix-format'
  Plugin 'junegunn/vader.vim'
 
  " All of your Plugins must be added before the following line
@@ -58,16 +61,19 @@
  ab flase false
  ab emial email
 
- :command WQ wq
- :command Wq wq
- :command W w
- :command Q q
- :command Qa qa
+ command WQ wq
+ command Wq wq
+ command W w
+ command Q q
+ command Qa qa
 
- " don't touch arrows
- noremap <Up> <NOP>
- noremap <Down> <NOP>
- noremap <Left> <NOP>
- noremap <Right> <NOP>
- nnoremap <leader>rc :vsplit $MYVIMRC<cr>
- inoremap jk <esc>
+" don't touch arrows
+nnoremap <Up> <NOP>
+nnoremap <Down> <NOP>
+nnoremap <Left> <NOP>
+nnoremap <Right> <NOP>
+
+nnoremap <leader>rc :vsplit $MYVIMRC<cr>
+
+inoremap jk <esc>
+"inoremap <ESC> <NOP>
