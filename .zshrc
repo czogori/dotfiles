@@ -8,7 +8,7 @@ DISABLE_CORRECTION="true"
 
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(extract brew git gitignore composer z osx web-search wd docker mix)
+plugins=(asdf extract brew git gitignore composer z osx web-search wd docker mix kubectl)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -43,5 +43,4 @@ export PATH="$HOME/.cargo/bin:$PATH"
 # erlang
 export ERL_AFLAGS="-kernel shell_history enabled"
 
-echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.zshrc
-echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.zshrc
+. $HOME/.asdf/asdf.sh
