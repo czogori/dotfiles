@@ -5,7 +5,7 @@ ZSH_THEME="avit"
 export UPDATE_ZSH_DAYS=7
 
 DISABLE_CORRECTION="true"
-DISABLE_AUTO_TITLE=true
+DISABLE_AUTO_TITLE="true"
 COMPLETION_WAITING_DOTS="true"
 
 plugins=(asdf extract brew git gitignore composer z osx web-search wd docker mix kubectl)
