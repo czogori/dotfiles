@@ -49,6 +49,8 @@
  Plugin 'drewolson/vimux-elixir-test'
  Plugin 'mhinz/vim-mix-format'
  Plugin 'junegunn/vader.vim'
+ Plugin 'junegunn/fzf'
+ Plugin 'junegunn/fzf.vim'
 
  " All of your Plugins must be added before the following line
  call vundle#end()            " required
@@ -56,6 +58,7 @@
 
  " ctrlp
  set runtimepath^=~/.vim/bundle/ctrlp.vim
+ set rtp+=/usr/local/bin/fzf
 
  " fix the most frequent mistakes
  ab flase false
